@@ -3,7 +3,7 @@ import React from 'react'
 const Photo = (props) => {
   return (
     <div>
-      <p>{props.link}</p>
+      <img src={props.link} />
     </div>
   )
 }
