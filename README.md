@@ -4,7 +4,7 @@
 
 ### Live version available here:
 
-### https://joshkpatterson.github.io/unsplash-fetch/
+### https://joshkpatterson.github.io/unsplash_fetch/
 
 # What is it?
 
