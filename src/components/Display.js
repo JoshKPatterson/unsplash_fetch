@@ -13,7 +13,7 @@ const Display = (props) => {
     <div className="display">
       {props.result
         ? props.result.data.results.map((item) => {
-            return <Photo link={item.urls.regular} />;
+            return <Photo link={item.urls.full} />;
           })
         : null}
     </div>
