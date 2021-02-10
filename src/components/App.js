@@ -12,6 +12,7 @@ const App = () => {
       .get("/search/photos", {
         params: {
           query: input,
+          per_page: 20,
         },
       })
       .then((res) => {
