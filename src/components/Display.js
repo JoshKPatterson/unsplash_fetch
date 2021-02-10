@@ -1,6 +1,13 @@
+// Import React
 import React from "react";
+
+// Import Components
 import Photo from "./Photo";
 
+// Import Style
+import "./Display.scss";
+
+// Display Component
 const Display = (props) => {
   return (
     <div className="display">

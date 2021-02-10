@@ -1,11 +1,16 @@
-import React from 'react'
+// Import React
+import React from "react";
 
+// Import Style
+import "./Photo.scss";
+
+// Photo Component
 const Photo = (props) => {
   return (
-    <div>
+    <div className="photo">
       <img src={props.link} />
     </div>
-  )
-}
+  );
+};
 
-export default Photo
+export default Photo;

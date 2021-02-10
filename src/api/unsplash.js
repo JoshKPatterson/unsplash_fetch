@@ -1,5 +1,7 @@
+// Import Libraries
 import axios from "axios";
 
+// Unsplash API
 const unsplash = axios.create({
   baseURL: "https://api.unsplash.com",
   headers: {
